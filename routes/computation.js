@@ -16,11 +16,11 @@ router.get('/', function(req, res, next) {
 
     var num4=Math.floor(Math.random()*10)
 
-    var cosFunction=Math.cos(num1);
+    var atanFunction=Math.cos(num1);
 
-    var sinFunction=Math.asin(num2);
+    var expFunction=Math.asin(num2);
 
-    var asinFunction=Math.asinh(num3)
+    var expm1Function=Math.asinh(num3)
 
 
 
@@ -38,11 +38,11 @@ router.get('/', function(req, res, next) {
 
         num4:num4,
 
-        cos:cosFunction,
+        atan:atanFunction,
 
-        asin:sinFunction,
+        exp:expFunction,
 
-        asinh:asinFunction,
+        expm1:expm1Function,
 
     });
 
