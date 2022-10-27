@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   times+=1;
-  res.send('respond with a resource');
+  res.send('user accesses are: '+times);
 });
 
 module.exports = router;
